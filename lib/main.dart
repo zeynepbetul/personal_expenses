@@ -9,13 +9,13 @@ class MyApp extends StatelessWidget {
   final List<Transactions> transactions = [
     Transactions(
         id: 't1', name: 'New Shoes', date: DateTime.now(), price: 69.99),
-    Transactions(id: 't2', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't3', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't4', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't2', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't2', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't2', name: 'Skirt', date: DateTime.now(), price: 99.99),
-    Transactions(id: 't2', name: 'Skirt', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't2', name: 'Grocery', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't3', name: 'Grocery', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't4', name: 'Grocery', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't2', name: 'Grocery', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't2', name: 'C', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't2', name: 'B', date: DateTime.now(), price: 99.99),
+    Transactions(id: 't2', name: 'A', date: DateTime.now(), price: 99.99),
   ];
   @override
   Widget build(BuildContext context) {
